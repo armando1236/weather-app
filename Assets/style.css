@@ -1,19 +1,44 @@
+/* body {
+    background-image: url(./images/pexels-yana-moroz-12324973.jpg);
+    background-size: cover;
+    background-position: center;
+    ;
+} */
+
+/* body {
+    background-image: linear-gradient(
+  295deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(283deg 100% 21%) 25%,
+  hsl(308deg 100% 24%) 43%,
+  hsl(322deg 100% 31%) 56%,
+  hsl(331deg 100% 38%) 65%,
+  hsl(338deg 100% 43%) 72%,
+  hsl(355deg 89% 58%) 78%,
+  hsl(12deg 100% 60%) 83%,
+  hsl(26deg 100% 56%) 87%,
+  hsl(39deg 100% 50%) 91%,
+  hsl(47deg 100% 50%) 96%,
+  hsl(55deg 100% 50%) 100%
+);
+} */
+
 * {
     font-family: 'Abril Fatface', cursive;
 }
-.wrapper {
+/* .wrapper {
     display: flex;
     width: 100%;
-}
+} */
 
 #sidebar {
-    width: 250px;
-    position: fixed;
+    /* width: 250px; */
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     height: 100vh;
     z-index: 999;
-    background: url(./images/pexels-ian-beckley-2440061.jpg);
+    background: url(./images/pexels-pixabay-355508.jpg);
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -28,18 +53,20 @@
 .city-weather {
     border: solid;
     border-width: thin;
-    width: 900px;
-    float: right;
+    /* width: 900px; */
+    /* float: right; */
     height: 250px;
     
 }
 
-.container{
+/* .container{
     margin-top: 400px;
     align-self:  center; 
-} 
+/* }  */
 
-.col {
+/* .col {
     border: solid;
-    height: 150px;
-}
+    height: 300px;
+    margin-right: 10px;
+    border-width: thin;
+} */ 
