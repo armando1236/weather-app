@@ -33,3 +33,13 @@
     height: 250px;
     
 }
+
+.container {
+    margin-top: 400px;
+    align-self:  center;
+}
+
+.col {
+    border: solid;
+    height: 150px;
+}

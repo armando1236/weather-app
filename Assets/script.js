@@ -6,8 +6,8 @@ fetch(url)
     dataFetch(data.response);
 
     function dataFetch(data)
-    var longitude = dataObject.lon
-    var latitude = 
+    var longitude = dataObject.lon;
+    var latitude = dataObject.lat;
 
 
 
