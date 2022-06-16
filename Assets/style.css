@@ -24,3 +24,12 @@
     font-size: 48px;
     opacity: 0.8;
 }
+
+.city-weather {
+    border: solid;
+    border-width: thin;
+    width: 900px;
+    float: right;
+    height: 250px;
+    
+}
