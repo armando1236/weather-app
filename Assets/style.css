@@ -1,0 +1,26 @@
+* {
+    font-family: 'Abril Fatface', cursive;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: url(./images/pexels-ian-beckley-2440061.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sidebar-header h1 {
+    font-size: 48px;
+    opacity: 0.8;
+}
