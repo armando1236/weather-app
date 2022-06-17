@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,7 +27,7 @@
             <div class="sidebar-header">
                 <h1>Weather Dashboard</h1>
             </div>
-            <input type="text" placeholder="Search.."><button id="searchBtn"></button>
+            <input type="text" placeholder=""><button id="searchBtn">search</button>
     
         </nav>
     </div>
@@ -34,10 +36,10 @@
     <div class="city-weather w-50 align-self-center">
         <h2>City Name</h2>
         <br>
-            <p>Temp:</p>
-            <p>Wind:</p>
-            <p>Humidity:</p>
-            <p>UV</p>
+            <p>Temp: <span id="temp"></span></p>
+            <p>Wind: <span id="wind"></span></p>
+            <p>Humidity:  <span id="hum"></span></p>
+            <p>UV:  <span id="uv"></span></p>
     </div>
 
     <div class="container">

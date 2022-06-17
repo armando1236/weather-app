@@ -12,12 +12,19 @@ function searchFunction(resultObj) {
     console.log(resultObj)
     var lon = resultObj[0].lon;
     var lat = resultObj[0].lat;
-    var searchURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+    var searchURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
     fetch(searchURL)
     .then(response =>response.json())
-    .then(data =>console.log(data));
+    .then(data =>weatherPrint(data));
 }
 
+function weatherPrint(resultObj) {
+console.log(resultObj)
+$('#temp').text(resultObj.current.temp);
+$('#wind').text(resultObj.current.wind_speed);
+$('#hum').text(resultObj.current.humidity);
+$('#uv').text(resultObj.current.uvi);
+}
 
 // addEventListener(("click"),$('#searchBtn')) {
     
