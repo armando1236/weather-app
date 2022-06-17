@@ -12,8 +12,10 @@ var apiKey = '86b659b4340d86c936cd439ce4e7e614';
 setInterval(function (){$('#time').text(moment().format('MMMM Do YYYY, h:mm:ss a'));}, 1000);
 
 pastSearch.forEach( cities => {
-   var cityList = $('#pastCities').appendChild(document.createElement('li'));
-    cityList.textContent = score.userInitials+ ": " + score.timerCount;
+    console.log(cities)
+   var cityList = $('#pastCities').append($('<li></li>'));
+    cityList.text(cities); 
+    console.log(cityList)
 });
 
 function locationFetch(searchRequest){
