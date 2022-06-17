@@ -31,24 +31,10 @@ fiveDays (resultObj);
 function fiveDays (resultObj) {
     
     for (let i = 1; i < 6; i++) {
-    //     var dayElement = $(`#day${i}`)
-    //     var tempElement = $('<p></p>')
-    //     tempElement.text(resultObj.daily[i].temp.day).append(dayElement)
-    //     console.log(resultObj.daily[i].temp.day)
-    //     var windElement = $('<p></p>')
-    //    windElement.text(resultObj.daily[i].wind_speed).append(dayElement)
-    //     var humElement = $('<p></p>')
-    //     humElement.text(resultObj.daily[i].humidity).append(dayElement)
-    //     var uvElement = $('<p></p>')
-    //     uvElement.text(resultObj.daily[i].uvi).append(dayElement)
-        
-
 $(`#day${i}`).append(`<p>Temperature: ${resultObj.daily[i].temp.day}</p>`)
 $(`#day${i}`).append(`<p>Wind: ${resultObj.daily[i].wind_speed}</p>`)
 $(`#day${i}`).append(`<p>Humidity: ${resultObj.daily[i].humidity}</p>`)
 $(`#day${i}`).append(`<p>UV: ${resultObj.daily[i].uvi}</p>`)
-
-
         
     }
 }
