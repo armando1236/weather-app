@@ -24,6 +24,12 @@ $('#temp').text(resultObj.current.temp);
 $('#wind').text(resultObj.current.wind_speed);
 $('#hum').text(resultObj.current.humidity);
 $('#uv').text(resultObj.current.uvi);
+var dayElement = $('#day1')
+var tempElement = $('<p></p>')
+var windElement = $('<p></p>')
+var humElement = $('<p></p>')
+var uvElement = $('<p></p>')
+
 }
 
 // addEventListener(("click"),$('#searchBtn')) {
