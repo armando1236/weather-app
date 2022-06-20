@@ -19,7 +19,7 @@ pastSearch.forEach( cities => {
 });
 
 function locationFetch(searchRequest){
-    var url = `http://api.openweathermap.org/geo/1.0/direct?q=${searchRequest}&limit=1&appid=${apiKey}`;
+    var url = `https://api.openweathermap.org/geo/1.0/direct?q=${searchRequest}&limit=1&appid=${apiKey}`;
     fetch(url)
     .then(response => response.json())
     .then(data => searchFunction(data));
@@ -55,6 +55,7 @@ function weatherPrint(resultObj) {
 
 
 }
+
 function fiveDays(resultObj) {
 
     for (let i = 1; i < 6; i++) {
